@@ -1,2 +1,2 @@
-# tylerbwong.me
+# tylerbwong.me (deprecated)
 Personal website
