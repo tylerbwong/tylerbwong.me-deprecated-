@@ -1,0 +1,15 @@
+html, body {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.moveimage {
+   position: relative;
+   top: 6px;
+}
+
+.rightalign {
+  text-align: right;
+}

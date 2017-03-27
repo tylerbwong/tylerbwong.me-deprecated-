@@ -1,0 +1,11 @@
+#!/bin/bash
+commit_message=$1
+
+git add .
+git commit -m "$commit_message"
+echo "===== Pushing to GitHub ====="
+git push
+echo "===== Deploying client to Firebase ====="
+firebase deploy
+echo "===== Deploying server to Heroku ====="
+git subtree push --prefix server heroku master
